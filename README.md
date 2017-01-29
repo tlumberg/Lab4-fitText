@@ -1,3 +1,3 @@
-# Web 2 Starter
+# Lab 4
 
-Put information about your project here. 
+Added jQuery Fittext plugin 
