@@ -1,0 +1,62 @@
+/********************
+YOUR STYLES
+*******************/
+
+/* styles.css / styles.scss */
+/* DO NOT EDIT CSS */
+
+header {
+  background: #FF5F6D;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #FF5F6D, #FFC371);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #FF5F6D, #FFC371);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 2em;
+  text-align: center;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 5em;
+  text-transform: uppercase;
+  text-shadow: 0 0 18px #666;
+}
+
+
+
+/********************
+MEDIA QUERIES
+*******************/
+/* Mobile: 320px = 20em */
+@media screen and (min-width: 20em) { 
+
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: yellow;
+       content: "Mobile Size";
+  }
+  
+}
+
+/* Tablet:  768px = 160em */
+@media screen and (min-width: 48em)  {
+
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: yellow;
+       content: "Tablet Size";
+  }
+
+}
+
+/* Desktop: 1280px = 80em */
+@media screen and (min-width: 80em) { 
+  
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: yellow;
+       content: "Desktop Size";
+  }
+
+}
